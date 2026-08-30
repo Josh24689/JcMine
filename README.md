@@ -1,0 +1,2 @@
+# JcMine
+Mining stimulation app
