@@ -2263,3 +2263,28 @@ img {
         transition-duration: 0.01ms !important;
     }
 }
+/* =========================================================
+   HEADER LOGO — FINAL SIZE
+========================================================= */
+
+.site-header .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: 42px;
+}
+
+.site-header .brand img {
+    width: 30px !important;
+    height: 30px !important;
+    max-width: 30px !important;
+    max-height: 30px !important;
+    object-fit: contain;
+    display: block;
+}
+
+.site-header .brand span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+}
