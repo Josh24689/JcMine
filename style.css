@@ -472,6 +472,30 @@ img {
         border-color var(--transition);
 }
 
+/* =========================================================
+   BRAND / HEADER LOGO
+========================================================= */
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.brand img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    display: block;
+}
+
+.brand span {
+    font-size: 21px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
 .button-primary {
     background: var(--gold);
 
